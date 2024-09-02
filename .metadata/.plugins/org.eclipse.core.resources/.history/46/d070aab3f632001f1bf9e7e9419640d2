@@ -1,0 +1,15 @@
+package in.nagaraj.java8;
+
+class Bank{
+	int acc_bal = 10000;
+	
+}
+public class EncapsulationDemo {
+
+	public static void main(String[] args) {
+ Bank b = new Bank();
+ System.out.println(b.acc_bal);
+
+	}
+
+}

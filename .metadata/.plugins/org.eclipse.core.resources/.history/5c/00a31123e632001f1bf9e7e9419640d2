@@ -1,0 +1,23 @@
+package org.nagaraj.demo;
+import java.util.HashSet;
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+
+	HashSet books = new HashSet(); 
+	books.add("Java");
+	books.add("Python");
+	books.add("C++");
+	books.add("C");
+	books.add("C#");
+	books.add("Python");
+	books.add("Python");
+	books.add("Python");
+	books.add("Python");
+	
+	books.add("WebTech");
+	System.out.println(books);
+	
+	}
+
+}

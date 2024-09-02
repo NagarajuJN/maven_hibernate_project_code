@@ -1,0 +1,30 @@
+package org.nagaraj.demo;
+import java.util.LinkedList;
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		
+		LinkedList l = new LinkedList();
+		System.out.println(l);
+		l.add("Nagaraj");
+		l.add(100);
+		l.add("8971540150");
+		l.add(null);
+		l.add(100);
+		System.out.println(l);
+		// linked list specfic method
+		l.addFirst("Full Stack Trainer");
+		System.out.println(l);
+		l.addLast("Bangalore");
+		System.out.println(l);
+		
+		System.out.println(l.getFirst());
+		
+		System.out.println(l.getLast());
+		
+		System.out.println(l.removeFirst());
+		
+		System.out.println(l);
+	}
+
+}

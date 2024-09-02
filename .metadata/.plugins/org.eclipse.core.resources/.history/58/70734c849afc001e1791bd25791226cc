@@ -1,0 +1,10 @@
+package org.nagaraj.demo;
+
+public class Encapsulation {
+	public static void main(String[] args)
+	{
+		 int num = 10;
+		System.out.print(num);
+	}
+
+}

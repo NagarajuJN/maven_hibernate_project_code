@@ -1,0 +1,31 @@
+package org.nagaraj.demo;
+
+//class Bank{
+//	 int account_num = 12343435;
+//	int acc_balance = 10000;
+//}
+//public class Encapsulation {
+//	public static void main(String[] args)
+//	{
+//		Bank b = new Bank();
+//		
+//		System.out.println(b.account_num);
+//		
+//		System.out.println(b.acc_balance);
+//		}
+
+/// Encapsulation Example
+
+class Bank{
+	private int acc_balance ;
+	
+}
+public class Encapsulation {
+	public static void main(String[] args)
+	{
+		Bank b = new Bank();
+			
+		System.out.println(b.acc_balance);
+		}
+
+	}

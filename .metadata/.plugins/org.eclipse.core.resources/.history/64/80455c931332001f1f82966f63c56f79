@@ -1,0 +1,11 @@
+package org.nagaraj.demo;
+import java.util.ArrayList;
+
+public class ArrrayListDemo {
+
+	public static void main(String[] args) {
+		ArrayList arr = new ArrayList();
+		System.out.println(arr);
+	}
+
+}

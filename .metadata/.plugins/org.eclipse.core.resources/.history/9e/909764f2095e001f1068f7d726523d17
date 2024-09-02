@@ -1,0 +1,5 @@
+package com.nagaraj.hibetatewithJPAcrud;
+
+public class Student {
+
+}

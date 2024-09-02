@@ -1,0 +1,28 @@
+package org.nagaraj.demo;
+import java.util.ArrayList;
+
+public class ArrrayListDemo {
+
+	public static void main(String[] args) {
+		ArrayList arr = new ArrayList(); // hetro and home
+		System.out.println(arr);
+		arr.add(10);
+		System.out.println(arr);
+		arr.add(11.11);
+		System.out.println(arr);
+		arr.add('J');
+		System.out.println(arr);
+		arr.add("Nagaraj");
+		System.out.println(arr);
+		arr.add(10);
+		System.out.println(arr);
+		arr.add(20);
+		System.out.println(arr);
+		arr.add(null);
+		System.out.println(arr);
+		System.out.println("After remove method");
+		arr.remove(3);
+		System.out.println(arr);
+	}
+
+}

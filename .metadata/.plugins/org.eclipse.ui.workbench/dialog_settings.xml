@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.jboss.tools.cdi.ui"/>
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="hibernatewizards"/>
+			<item value="org.jboss.ide.eclipse.ui.wizards"/>
+			<item value="org.eclipse.jst.ws.ui.new"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
+			<item value="org.eclipse.ui.Examples"/>
+			<item value="org.eclipse.ui.Examples/org.eclipse.wst.xml.examples"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Anudip\Desktop\Junit.zip"/>
+			<item value="C:\Users\Anudip\Desktop\HibernatewithJPACRUD.zip"/>
+			<item value="C:\Users\Anudip\Desktop\Hibernate Class.zip"/>
+			<item value="C:\Users\Anudip\Desktop\Hibernate Class\HibernateDemoProject1.zip"/>
+			<item value="C:\Users\Anudip\Desktop\Interview\JDBCclasscode.zip"/>
+			<item value="C:\Users\Anudip\Desktop\Interview\solution3.zip"/>
+			<item value="C:\Users\Anudip\Desktop\Interview\solution2.zip"/>
+			<item value="C:\Users\Anudip\Desktop\Interview\solution1.zip"/>
+		</list>
+	</section>
+</section>

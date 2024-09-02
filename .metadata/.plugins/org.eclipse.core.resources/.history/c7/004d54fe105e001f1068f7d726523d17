@@ -1,0 +1,45 @@
+package com.nagaraj.hibetatewithJPAcrud;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+    // look JPA create one with a name called student and insert records
+    	// persist() used to store the data permentaly
+    	
+    	Student s = new Student();
+    	s.setId(103);
+    	s.setName("Ravi");
+    	s.setAge(22);
+    	
+    	EntityManagerFactory emf = Persistence.createEntityManagerFactory(null);
+    	
+    	EntityManager em= emf.createEntityManager();
+    	
+    	em.getTransaction().begin();
+    	em.persist(s);
+    	em.getTransaction().commit();
+    	System.out.println(s);
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    }
+}
